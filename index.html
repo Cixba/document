@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.29.0/codemirror.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.29.0/codemirror.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.29.0/mode/php/php.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.29.0/mode/xml/xml.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.29.0/mode/javascript/javascript.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.29.0/mode/css/css.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.29.0/mode/htmlmixed/htmlmixed.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.29.0/mode/clike/clike.js"></script>
+
+    <link rel="stylesheet" href="css/index.css">
+
+    <title>Document - The PHP Frontend Library</title>
+</head>
+    <body>
+        <div class="row">
+            <div class="col-lg-4 menu pt-5" style="min-height: 100vh">
+                <div class="logo pb-3 col-lg-12">
+                    <img src="images/logo.png" class="" alt="">
+                </div>
+
+                <div class="title-text pb-1">
+                    <span class="h5 small"><a href="index.html" style="text-decoration: none; color: black;">Getting Started</a></span>
+                </div>
+
+                <div class="title-text pb-1">
+                    <span class="h5 small">Classes & Methods</span>
+                </div>
+
+                <div class="item-text active">
+                    <span class="h6 small" data-bs-toggle="collapse" href="#document-class" role="button" aria-expanded="true">Document Class</span>
+                </div>
+
+                <div class="collapse" id="document-class">
+                    <div class="document">
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="id.html">id</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="class.html">class</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="alert.html">alert</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="log.html">log</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="createElement.html">createElement</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="localStorage.html">localStorage</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="inputEvent.html">inputEvent</a></span>
+                        </div>
+
+                        <!-- <div class="sub-item-text">
+                            <span class="h6 small"><a href="sum.html">sum</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="sub.html">sub</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="div.html">div</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="mul.html">mul</a></span>
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="item-text active" data-bs-toggle="collapse" href="#style-class" role="button" aria-expanded="false">
+                    <span class="h6 small">Style Class</span>
+                </div>
+
+                <div class="collapse" id="style-class">
+                    <div class="style">
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=color">color</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=alignContent">alignContent</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=animation">animation</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=border">border</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=bottom">bottom</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=cursor">cursor</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=direction">direction</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=display">display</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=filter">filter</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=flex">flex</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=flexDirection">flexDirection</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=flexFlow">flexFlow</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=font">font</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=fontFamily">fontFamily</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=fontSize">fontSize</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=fontStyle">fontStyle</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=fontWeight">fontWeight</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=height">height</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=justifyContent">justifyContent</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=left">left</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=listStyle">listStyle</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=margin">margin</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=marginTop">marginTop</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=marginRight">marginRight</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=marginBottom">marginBottom</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=marginLeft">marginLeft</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=opacity">opacity</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=outline">outline</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=overflow">overflow</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=overflowX">overflowX</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=overflowY">overflowY</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=padding">padding</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=paddingTop">paddingTop</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=paddingRight">paddingRight</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=paddingBottom">paddingBottom</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=paddingLeft">paddingLeft</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=position">position</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=right">right</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=textAlign">textAlign</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=textDecoration">textDecoration</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=textDecorationColor">textDecorationColor</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=textIndent">textIndent</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=textOverflow">textOverflow</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=top">top</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=transition">transition</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=transitionProperty">transitionProperty</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=transitionDuration">transitionDuration</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=verticalAlign">verticalAlign</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=visibility">visibility</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=width">width</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=wordSpacing">wordSpacing</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="style.html?type=zIndex">zIndex</a></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-text active" data-bs-toggle="collapse" href="#event-class" role="button" aria-expanded="false">
+                    <span class="h6 small">Event Class</span>
+                </div>
+
+                <div class="collapse" id="event-class">
+                    <div class="document">
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="event.html?type=click">click</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="event.html?type=change">change</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="event.html?type=copy">copy</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="event.html?type=dblclick">dblclick</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="event.html?type=drag">drag</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="event.html?type=drop">drop</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="event.html?type=error">error</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="event.html?type=focus">focus</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="event.html?type=focusin">focusin</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="event.html?type=focusout">focusout</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="video-event.html?type=play">play</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="video-event.html?type=playing">playing</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="event.html?type=resize">resize</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="event.html?type=mouseenter">mouseenter</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="event.html?type=mouseleave">mouseleave</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="event.html?type=mouseover">mouseover</a></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-text active" data-bs-toggle="collapse" href="#inputEvent-class" role="button" aria-expanded="false">
+                    <span class="h6 small">InputEvent Class</span>
+                </div>
+
+                <div class="collapse" id="inputEvent-class">
+                    <div class="document">
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="kbdEvent.html?type=input">input</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="kbdEvent.html?type=keydown">keydown</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="kbdEvent.html?type=keypress">keypress</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="kbdEvent.html?type=keyup">keyup</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="kbdEvent.html?type=mousedown">mousedown</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="kbdEvent.html?type=mouseup">mouseup</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="kbdEvent.html?type=scroll">scroll</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="kbdEvent.html?type=wheel">wheel</a></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-text active" data-bs-toggle="collapse" href="#storage-class" role="button" aria-expanded="false">
+                    <span class="h6 small">Storage Class</span>
+                </div>
+
+                <div class="collapse" id="storage-class">
+                    <div class="document">
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="set.html">set</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="get.html">get</a></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-text active" data-bs-toggle="collapse" href="#functions-class" role="button" aria-expanded="false">
+                    <span class="h6 small">Functions Class</span>
+                </div>
+
+                <div class="collapse" id="functions-class">
+                    <div class="document">
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="val.html">val</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="appendVal.html">appendVal</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="inputVal.html">inputVal</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="appendInputVal.html">appendInputVal</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="styleObject.html">style</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="eventObject.html">event</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="appendTo.html">appendTo</a></span>
+                        </div>
+
+                        <div class="sub-item-text">
+                            <span class="h6 small"><a href="attr.html">attr</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-8 content">
+                <div class="col-lg-10 mx-auto pt-5">
+                    <span class="h3">What is Document?</span><br>
+                    <span class="h6 light"><b>Document</b> is a library that let you build code for frontend with PHP.</span><br>
+                    <span class="h4 pt-4" style="font-weight: 400;display: inline-block">What can I use Document for?</span><br>
+                    <span class="h6 light">• <b>Get</b> & <b>Set</b> attributes of elements</span><br>
+                    <span class="h6 light">• <b>Use</b> the local storage of the user</span><br>
+                    <span class="h6 light">• <b>Style</b> elements</span><br>
+                    <span class="h6 light">• <b>Use</b> events</span><br>
+                    <span class="h4 pt-2" style="font-weight: 400;display: inline-block">How to get started?</span><br>
+                    <span class="h6 light">To get started with <b>Document</b> all you need to do is download the <code>document.php</code> file from GitHub and put it in your project folder.</span><br><br>
+                    <span class="h6 light">After that, you just have to include it, like this:</span><br>
+
+                    <textarea id="textarea"></textarea>
+
+                    <span class="h6 light">It needs to be in <code>script</code> tags because the code will be translated into Javascript when the page loads.</span><br>
+                    <span class="h6 light">Yey, now you can start creating <b>awesome things!</b> See the docs for info on how to use <b>Document</b> functions.</span>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/22058b111d.js" crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function(){
+        var myTextArea = document.getElementById("textarea");
+        var myCodeMirror = CodeMirror.fromTextArea(myTextArea);
+
+        var editor = CodeMirror.fromTextArea(myTextArea, {
+            lineNumbers: true,
+            mode: "application/x-httpd-php",
+            readOnly: "nocursor",
+        }).setValue("<script>\n<?php\n\trequire_once('document.php');\n?>\n <\/script>");
+
+    });
+    
+</script>

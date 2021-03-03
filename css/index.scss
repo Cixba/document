@@ -1,0 +1,85 @@
+// @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300,600,700,800&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+
+    // font-family: 'Ubuntu', sans-serif !important;
+}
+
+.menu{
+    background-color: #f0f0f0;
+    padding-left: 12%;
+    
+    .logo{
+        img{
+            width: 30%;
+        }
+    }
+
+    .title-text{
+        span{
+            font-weight: 500;
+        }
+    }
+
+    .item-text{
+        padding-left: 10%;
+        transition: 0.2s ease-in-out;
+      
+        &:hover{
+            background-color: cornflowerblue !important;
+        }
+
+        span{
+            width: 100%;
+            transition: 0.2s ease-in-out;
+            cursor: pointer;
+            display: inline-block;
+            margin: 0 !important;
+            padding: 4% 0 !important;
+            font-weight: 400;
+
+            &:hover{
+                color: white;
+            }
+        }
+    }
+
+    .sub-item-text{
+        padding-left: 20%;
+      
+        span{
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+            display: inline-block;
+            margin: 0 !important;
+            padding: 4% 0 !important;
+            font-weight: 400;
+
+            a{
+                text-decoration: none;
+                color: rgb(110, 110, 110);
+                transition: 0.2s ease-in-out;
+
+                &:hover{
+                    color: cornflowerblue;
+                }
+            }
+        }
+    }
+}
+
+.content{
+    .light{
+        font-weight: lighter;
+    }
+}
+
+.CodeMirror{
+    height: auto;
+}
+
+.navbar-collapse.collapse.in {
+    display: block!important;
+}

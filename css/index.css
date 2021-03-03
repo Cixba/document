@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  background-color: #f0f0f0;
+  padding-left: 12%;
+}
+
+.menu .logo img {
+  width: 30%;
+}
+
+.menu .title-text span {
+  font-weight: 500;
+}
+
+.menu .item-text {
+  padding-left: 10%;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.menu .item-text:hover {
+  background-color: cornflowerblue !important;
+}
+
+.menu .item-text span {
+  width: 100%;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 !important;
+  padding: 4% 0 !important;
+  font-weight: 400;
+}
+
+.menu .item-text span:hover {
+  color: white;
+}
+
+.menu .sub-item-text {
+  padding-left: 20%;
+}
+
+.menu .sub-item-text span {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 !important;
+  padding: 4% 0 !important;
+  font-weight: 400;
+}
+
+.menu .sub-item-text span a {
+  text-decoration: none;
+  color: #6e6e6e;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.menu .sub-item-text span a:hover {
+  color: cornflowerblue;
+}
+
+.content .light {
+  font-weight: lighter;
+}
+
+.CodeMirror {
+  height: auto;
+}
+
+.navbar-collapse.collapse.in {
+  display: block !important;
+}
+/*# sourceMappingURL=index.css.map */
